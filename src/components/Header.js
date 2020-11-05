@@ -49,7 +49,7 @@ function Component() {
       <Login>
         {
           isLogin ? <>
-            饥人谷 <StyledButton type="primary" onClick={()=>setIsLogin(false)}>注销</StyledButton>
+            登录成功 <StyledButton type="primary" onClick={()=>setIsLogin(false)}>注销</StyledButton>
           </> :<>
           <StyledButton type="primary" onClick={()=>setIsLogin(true)}>登录</StyledButton>
           <StyledButton type="primary">注册</StyledButton>
